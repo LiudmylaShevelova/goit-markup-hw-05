@@ -639,7 +639,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     margin-bottom: 4px;
 }
 .form-item {
-    margin-bottom: 18px;
+    margin-bottom: 8px;
 }
 .div-input-icon {
     position: relative;
@@ -676,15 +676,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .div-form-comment {
     margin-bottom: 16px;
 }
-
-/* .user-commet-label {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    margin-bottom: 4px;
-} */
 
 .form-textarea {
     display: block;
