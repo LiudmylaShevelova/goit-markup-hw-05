@@ -526,10 +526,11 @@
               <input
                 class="form-item-input"
                 type="text"
+                name="user-name"
                 id="user-name"
                 required
               />
-              <svg class="form-item-icon" width="18" height="18">
+              <svg class="form-item-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -540,10 +541,11 @@
               <input
                 class="form-item-input"
                 type="tel"
+                name="user-tel"
                 id="user-tel"
                 required
               />
-              <svg class="form-item-icon" width="18" height="18">
+              <svg class="form-item-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -555,16 +557,18 @@
                 class="form-item-input"
                 type="email"
                 id="user-email"
+                name="user-email"
                 required
               />
-              <svg class="form-item-icon" width="18" height="18">
+              <svg class="form-item-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
           <div class="div-form-comment">
-            <label class="user-commet-label" for="user-comment">Comment</label>
+            <label class="form-item-label" for="user-comment">Comment</label>
             <textarea
+              name="user-comment"
               class="form-textarea"
               id="user-comment"
               placeholder="Text input"
@@ -574,9 +578,11 @@
             <input
               class="input-checkbox visually-hidden"
               type="checkbox"
-              id="privacy-policy"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
             />
-            <label class="label-privacy-policy" for="privacy-policy">
+            <label class="label-privacy-policy" for="user-privacy">
               <span class="span-privacy-policy">
                 <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-ok"></use>
